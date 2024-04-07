@@ -1,5 +1,4 @@
 function preloadAndSwapImage() {
-    // Check if the screen width is less than or equal to 768 pixels
         // Preload the static image
         var img = new Image();
         img.src = 'imagenes/final_frame.jpg'; // Path to the static image
