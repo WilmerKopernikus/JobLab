@@ -1,0 +1,68 @@
+/* General Body Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(12, 26, 78);
+}
+
+#image-container {
+    display: flex; /* Use flexbox to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Ensures the image exceeding the container's bounds is not shown */
+}
+
+#bg-gif {
+    max-height: 100%; /* Ensure the image's height does not exceed the container's height */
+    min-height: 100%; /* Ensure the image covers the height completely */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    /* Remove min-width, width, and height properties to allow the image's height to dictate its size */
+    /* Adjust or remove position properties if you're centering using flexbox */
+}
+
+/* Link Div 1 Styles */
+#link-div-1 {
+    display: block; /* Initially hide the link */
+    position: absolute;
+    width: 268px; /* Div width */
+    height: 73px; /* Div height */
+    top: 316px; /* Y coordinate */
+    left: 73px; /* X coordinate */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+}
+
+#link-div-2 {
+    display: block; /* Initially hide the link */
+    position: absolute;
+    width: 230px; /* Div width */
+    height: 61px; /* Div height */
+    top: 400px; /* Y coordinate */
+    left: 91px; /* X coordinate */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+}
+
+#link-div-3 {
+    display: block; /* Initially hide the link */
+    position: absolute;
+    width: 190px; /* Div width */
+    height: 70px; /* Div height */
+    top: 480px; /* Y coordinate */
+    left: 112px; /* X coordinate */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+}
+
+#link-div-4 {
+    display: block; 
+    position: absolute;
+    width: 300px; 
+    height: 60px; 
+    top: 570px; 
+    left: 35%; 
+    cursor: pointer; 
+    background-color: rgba(255, 0, 0, 0.203); 
+}
