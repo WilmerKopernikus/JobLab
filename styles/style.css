@@ -21,38 +21,38 @@ body, html {
 
 }
 
-/* Link Div 1 Styles */
+/* Link Styles */
 #link-div-1 {
-    display: block; /* Initially hide the link */
+    display: block; 
     position: absolute;
-    width: 268px; /* Div width */
-    height: 73px; /* Div height */
-    top: 316px; /* Y coordinate */
-    left: 73px; /* X coordinate */
-    cursor: pointer; /* Changes the cursor to indicate it's clickable */
-    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+    width: 40vh; 
+    height: 12vh; 
+    top: 38%; 
+    left: 34%; 
+    cursor: pointer; 
+    background-color: rgba(255, 0, 0, 0.222); 
 }
 
 #link-div-2 {
-    display: block; /* Initially hide the link */
+    display: block; 
     position: absolute;
-    width: 230px; /* Div width */
-    height: 61px; /* Div height */
-    top: 400px; /* Y coordinate */
-    left: 91px; /* X coordinate */
-    cursor: pointer; /* Changes the cursor to indicate it's clickable */
-    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+    width: 40vh; 
+    height: 10vh; 
+    top: 54%; 
+    left: 36%; 
+    cursor: pointer; 
+    background-color: rgba(255, 0, 0, 0.189); 
 }
 
 #link-div-3 {
-    display: block; /* Initially hide the link */
+    display: block; 
     position: absolute;
-    width: 190px; /* Div width */
-    height: 70px; /* Div height */
-    top: 480px; /* Y coordinate */
-    left: 112px; /* X coordinate */
-    cursor: pointer; /* Changes the cursor to indicate it's clickable */
-    background-color: rgba(255, 0, 0, 0); /* Example: semi-transparent red for testing */
+    width: 40vh; 
+    height: 10vh; 
+    top: 68%; 
+    left: 38%; 
+    cursor: pointer; 
+    background-color: rgba(255, 0, 0, 0.201); 
 }
 
 #link-div-4 {
@@ -63,7 +63,7 @@ body, html {
     top: 81%; 
     left: 40%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0); 
+    background-color: rgba(255, 0, 0, 0.152); 
 }
 
 @media (max-width: 768px) {
@@ -74,6 +74,38 @@ body, html {
         max-width: 100%; 
         min-width: 100%;
     }
+
+    #link-div-1 {
+        display: block; 
+        position: absolute;
+        width: 268px; 
+        height: 73px; 
+        top: 316px; 
+        left: 40%; 
+        cursor: pointer; 
+        background-color: rgba(255, 0, 0, 0); 
+    }
+    
+    #link-div-2 {
+        display: block; 
+        position: absolute;
+        width: 230px; 
+        height: 61px; 
+        top: 400px; 
+        left: 40%; 
+        cursor: pointer; 
+        background-color: rgba(255, 0, 0, 0); 
+    }
+    
+    #link-div-3 {
+        display: block; 
+        position: absolute;
+        width: 190px; 
+        height: 70px; 
+        top: 68%; 
+        left: 40%; 
+        cursor: pointer; 
+        background-color: rgba(255, 0, 0, 0); }
 
     #link-div-4 {
         display: block; 
