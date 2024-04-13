@@ -24,25 +24,33 @@ body, html {
 #container {
     color: rgb(12, 26, 78);
     background-color: white; 
-    width: 600px; 
-    height: 1000px; 
-    text-align: center; /* Center text horizontally */
+    width: 400px; 
+    height: 1400px; 
     display: flex;
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Ensure horizontal centering works with flexbox */
-    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
 }
 
 #title {
-    width: 200px; 
+    width: 300px; 
     height: 100px; 
-    background-color: aqua;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
 }
+
+.logos {
+    padding: 10px;         
+    display: block; 
+    margin: auto; 
+    width: 350px;
+}
+
+
 
 /* Link Styles */
 #link-div-1 {
