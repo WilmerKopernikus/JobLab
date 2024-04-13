@@ -21,11 +21,13 @@ body, html {
 
 }
 
+/* Logo Styles */
+
 #container {
-    color: rgb(12, 26, 78);
+    color: rgb(0, 34, 156);
     background-color: white; 
-    width: 400px; 
-    height: 1400px; 
+    width: 500px; 
+    height: 1300px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,22 +37,37 @@ body, html {
     border-radius: 20px;
 }
 
-#title {
-    width: 300px; 
-    height: 100px; 
+#organisiert_von {
+    width: 230px; 
+    height: 70px; 
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#unterstuetzt_von {
+    width: 230px; 
+    height: 70px; 
+    background-color: white;
     margin-top: 50px;
     text-align: center;
     font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logos {
-    padding: 10px;         
+    padding-top: 50px;    
+    padding-bottom: 50px;     
     display: block; 
     margin: auto; 
     width: 350px;
 }
-
-
 
 /* Link Styles */
 #link-div-1 {
@@ -148,6 +165,56 @@ body, html {
         cursor: pointer; 
         background-color: rgba(255, 0, 0, 0); 
     }
+
+/* Logos */
+
+    #container {
+        color: rgb(0, 34, 156);
+        background-color: white; 
+        width: 360px; 
+        height: 1300px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+    
+    #organisiert_von {
+        width: 230px; 
+        height: 70px; 
+        background-color: white;
+        margin-top: 20px;
+        text-align: center;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #unterstuetzt_von {
+        width: 230px; 
+        height: 70px; 
+        background-color: white;
+        margin-top: 50px;
+        text-align: center;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logos {
+        padding-top: 50px;
+        padding-bottom: 50px;         
+        display: block; 
+        margin: auto; 
+        width: 330px;
+    }
+    
 }
 /*
 @media (min-width: 700px) and (max-width: 1024px) {
