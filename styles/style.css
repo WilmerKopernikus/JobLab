@@ -151,9 +151,21 @@ table tr td {
 }
 
 
-#text-div {
+.text-div {
     width: 320px; 
     height: 500px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+.ort{
+    width: 320px; 
+    height: 200px; 
     background-color: rgb(255, 255, 255); 
     color: black;
     margin-top: 20px;
@@ -218,6 +230,13 @@ a {
     margin-bottom: 20px;
 }
 
+#organisiert {
+    width: 250px; 
+    height: 70px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .subtitulos {
     width: 200px; 
     height: 70px; 
@@ -228,6 +247,10 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.programm {
+    width: 150px !important; 
 }
 
 .titulos2 {
