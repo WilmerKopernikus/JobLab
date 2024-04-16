@@ -7,90 +7,24 @@ body, html {
 }
 
 #image-container {
-    display: flex; /* Use flexbox to center the image */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     width: 100vw;
     height: 100vh;
-    overflow: hidden; /* Ensures the image exceeding the container's bounds is not shown */
+    overflow: hidden; /
 }
 
 #bg-gif {
-    max-height: 100%; /* Ensure the image's height does not exceed the container's height */
-    min-height: 100%; /* Ensure the image covers the height completely */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    max-height: 100%; 
+    min-height: 100%; 
+    object-fit: cover; 
 
 }
 
-/* Logo Styles */
-
-#container {
-    color: rgb(0, 34, 156);
-    background-color: white; 
-    width: 500px; 
-    height: 1300px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-}
-
-#text-div {
-    width: 400px; 
-    height: 600px; 
-    background-color: rgb(255, 255, 255); 
-    color: black;
-    margin-top: 20px;
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-p {
-    font-family: Arial, sans-serif;
-}
-
-a {
-    text-decoration: none; /* Removes underline */
-    color: rgb(0, 34, 156);
-}
-
-.titulos {
-    width: 230px; 
-    height: 70px; 
-    background-color: white;
-    margin-top: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#unterstuetzt_von {
-    width: 230px; 
-    height: 70px; 
-    background-color: white;
-    margin-top: 50px;
-    text-align: center;
-    font-family: Arial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logos {
-    padding-top: 50px;    
-    padding-bottom: 50px;     
-    display: block; 
-    margin: auto; 
-    width: 350px;
-}
-
-/* Link Styles */
+/* ------------------------------------------------------------------------------------------
+--------------------------------------Links-------------------------------------------------- 
+------------------------------------------------------------------------------------------ */
 
 #link-div-0 {
     display: block; 
@@ -111,7 +45,7 @@ a {
     top: 38%; 
     left: 40%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0.216); 
+    background-color: rgba(255, 0, 0, 0); 
 }
 
 #link-div-2 {
@@ -146,6 +80,192 @@ a {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0.216); 
 }
+
+/* Table */
+
+table tr td {
+    /*border: 3px solid rgb(104, 79, 200);*/
+    padding: 12px;  
+  }
+  
+  table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-spacing: 7px;
+    color: rgb(0, 0, 0);
+  }
+
+  td {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    width: 22%;
+  }
+
+  #top-table {
+    background-image: linear-gradient(to right, rgb(0, 174, 239), rgb(38, 34, 98)) !important; 
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #zeit-table {
+    background-color: rgb(12, 26, 78) ; 
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+  #info-table {
+    border: 3px solid rgb(41, 171, 227);
+    border-radius: 6px;
+  }
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+--------------------------------------Containers--------------------------------------------- 
+------------------------------------------------------------------------------------------ */
+
+
+.container {
+    color: rgb(0, 34, 156);
+    background-color: white; 
+    width: 360px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.intro {
+    height: 790px; 
+}
+
+.guangzhou-container {
+    height: 1260px; 
+}
+
+
+#text-div {
+    width: 320px; 
+    height: 500px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
+}
+/*EStilo para pc
+
+#container {
+    color: rgb(0, 34, 156);
+    background-color: white; 
+    width: 500px; 
+    height: 780px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#text-div {
+    width: 400px; 
+    height: 600px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+} */
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: rgb(0, 34, 156);
+}
+
+/* ------------------------------------------------------------------------------------------
+--------------------------------------Titulos------------------------------------------------ 
+------------------------------------------------------------------------------------------ */
+
+.titulos {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.joblab {
+    width: 250px; 
+    height: 70px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subtitulos {
+    width: 200px; 
+    height: 70px; 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titulos2 {
+    width: 300px; 
+    height: 130px; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    display: flex;
+    font-weight: 550;
+    align-items: center;
+}
+
+
+
+#unterstuetzt_von {
+    width: 230px; 
+    height: 70px; 
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    padding-top: 50px;    
+    padding-bottom: 50px;     
+    display: block; 
+    margin: auto; 
+    width: 350px;
+}
+
+
 
 @media (max-width: 700px) {
     #bg-gif {
