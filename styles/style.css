@@ -3,6 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: rgb(12, 26, 78);
+    scroll-behavior: smooth;
 }
 
 #image-container {
@@ -37,13 +38,33 @@ body, html {
     border-radius: 20px;
 }
 
-#organisiert_von {
+#text-div {
+    width: 400px; 
+    height: 600px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: rgb(0, 34, 156);
+}
+
+.titulos {
     width: 230px; 
     height: 70px; 
     background-color: white;
     margin-top: 20px;
     text-align: center;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,6 +91,18 @@ body, html {
 }
 
 /* Link Styles */
+
+#link-div-0 {
+    display: block; 
+    position: absolute;
+    width: 24vw; 
+    height: 25vh; 
+    top: 10%; 
+    left: 36%; 
+    cursor: pointer; 
+    background-color: rgba(255, 0, 0, 0); 
+}
+
 #link-div-1 {
     display: block; 
     position: absolute;
@@ -78,7 +111,7 @@ body, html {
     top: 38%; 
     left: 40%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0); 
+    background-color: rgba(255, 0, 0, 0.216); 
 }
 
 #link-div-2 {
@@ -89,7 +122,7 @@ body, html {
     top: 54%; 
     left: 42%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0); 
+    background-color: rgba(255, 0, 0, 0.216); 
 }
 
 #link-div-3 {
@@ -100,7 +133,7 @@ body, html {
     top: 68%; 
     left: 43%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0); 
+    background-color: rgba(255, 0, 0, 0.216); 
 }
 
 #link-div-4 {
@@ -111,7 +144,7 @@ body, html {
     top: 81%; 
     left: 45%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0); 
+    background-color: rgba(255, 0, 0, 0.216); 
 }
 
 @media (max-width: 700px) {
