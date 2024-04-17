@@ -2,7 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: rgb(12, 26, 78);
+    background-color: rgb(29, 26, 75);
     scroll-behavior: smooth;
 }
 
@@ -19,8 +19,24 @@ body, html {
     max-height: 100%; 
     min-height: 100%; 
     object-fit: cover; 
-
 }
+
+.wechat-browser #image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /
+}
+
+.wechat-browser #bg-gif {
+    max-height: 100%; 
+    min-height: 100%; 
+    object-fit: cover; 
+}
+
+
 
 /* ------------------------------------------------------------------------------------------
 --------------------------------------Links-------------------------------------------------- 
@@ -56,7 +72,7 @@ body, html {
     top: 54%; 
     left: 42%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0.216); 
+    background-color: rgba(255, 0, 0, 0); 
 }
 
 #link-div-3 {
@@ -67,7 +83,7 @@ body, html {
     top: 68%; 
     left: 43%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0.216); 
+    background-color: rgba(255, 0, 0, 0); 
 }
 
 #link-div-4 {
@@ -75,29 +91,26 @@ body, html {
     position: absolute;
     width: 6vw; 
     height: 8vh; 
-    top: 81%; 
+    top: 83%; 
     left: 45%; 
     cursor: pointer; 
-    background-color: rgba(255, 0, 0, 0.216); 
+    background-color: rgba(255, 0, 0, 0); 
 }
 
 /* Table */
 
-table tr td {
-    /*border: 3px solid rgb(104, 79, 200);*/
-    padding: 12px;  
-  }
-  
+
   table {
-    width: 90%;
+    width: 100% !important;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     border-spacing: 7px;
     color: rgb(0, 0, 0);
   }
 
-  td {
+  td, th {
+    padding: 12px; 
     font-family: 'Arial', sans-serif;
     font-size: 12px;
     width: 22%;
@@ -111,9 +124,10 @@ table tr td {
   }
 
   #zeit-table {
-    background-color: rgb(12, 26, 78) ; 
+    background-image: linear-gradient(rgb(0, 174, 239), rgb(38, 34, 98)); 
     color: rgb(255, 255, 255);
     font-weight: 600;
+    text-align: center;
   }
 
   #info-table {
@@ -143,13 +157,20 @@ table tr td {
 }
 
 .intro {
-    height: 790px; 
+    height: 850px; 
 }
 
-.guangzhou-container {
+#guangzhou-id {
     height: 1260px; 
 }
 
+#shanghai-id {
+    height: 1360px; 
+}
+
+#beijing-id {
+    height: 1160px; 
+}
 
 .text-div {
     width: 320px; 
@@ -290,13 +311,23 @@ a {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+
+    #image-container {
+        display: flex; 
+        justify-content: center;  /* Center horizontally */
+        align-items: flex-start;  /* Align items to the top */
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
     #bg-gif {
-        max-height: 100%; 
-        min-height: 100%; 
-        object-fit: cover; 
-        max-width: 100%; 
-        min-width: 100%;
+        width: auto;  /* Allows the image width to adjust automatically */
+        max-width: 100%; /* Adjust this value to set how thin you want the image to be */
+        height: 100%; /* Ensures the image always fills the height of the viewport */
+        object-fit: contain; /* Makes sure the entire image is visible, fits within the dimensions without cropping */
+        object-position: top center; /* Ensures the image is aligned to the top and centered horizontally */
     }
 
     #link-div-1 {

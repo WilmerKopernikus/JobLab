@@ -16,3 +16,12 @@ window.onload = function() {
     // Ocultar el loader una vez que la página está cargada
     document.getElementById('loadingScreen').style.display = 'none';
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+    var ua = navigator.userAgent.toLowerCase();
+    if (/micromessenger/.test(ua)) {
+        document.body.classList.add("wechat-browser");
+        // You can also directly apply styles via JavaScript
+        document.body.style.backgroundColor = "lightblue"; // Example style
+    }
+});
