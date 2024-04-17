@@ -278,6 +278,10 @@ p {
     margin-bottom: 20px;
 }
 
+#joblab-bild {
+    width: 250px; 
+}
+
 #organisiert {
     width: 250px; 
     height: 70px; 
