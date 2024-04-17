@@ -22,6 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
     if (/micromessenger/.test(ua)) {
         document.body.classList.add("wechat-browser");
         // You can also directly apply styles via JavaScript
-        document.body.style.backgroundColor = "lightblue"; // Example style
+        document.body.style.backgroundColor = "rgb(29, 26, 75)"; // Example style
     }
 });
