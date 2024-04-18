@@ -22,8 +22,10 @@ body, html {
 }
 
 #chinese-text{
-    font-size: 18px;
+    font-size: 17px;
 }
+
+
 
 
 /* ------------------------------------------------------------------------------------------------------------
@@ -118,13 +120,13 @@ body.wechat-browser, html.wechat-browser {
 
 /*---------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
------------------------------ Table------------------------------------------------------
+----------------------------- Tables------------------------------------------------------
 ----------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------- */
 
 
   table {
-    width: 100% !important;
+    width: 100%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -136,8 +138,11 @@ body.wechat-browser, html.wechat-browser {
     padding: 12px; 
     font-family: 'Arial', sans-serif;
     font-size: 12px;
-    width: 22%;
   }
+
+  .chinese-table td, .chinese-table th {
+    font-size: 15px;
+}
 
   #top-table {
     background-image: linear-gradient(to right, rgb(0, 174, 239), rgb(38, 34, 98)) !important; 
@@ -146,11 +151,13 @@ body.wechat-browser, html.wechat-browser {
     text-align: center;
   }
 
+
   #zeit-table {
     background-image: linear-gradient(rgb(0, 174, 239), rgb(38, 34, 98)); 
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
+
   }
 
   #info-table {
@@ -167,6 +174,8 @@ body.wechat-browser, html.wechat-browser {
     text-align: center;
     font-size: 14px;
   }
+
+
 
 
 
@@ -197,12 +206,24 @@ body.wechat-browser, html.wechat-browser {
     height: 1260px; 
 }
 
+#guangzhou-cn-container {
+    height: 1300px;
+}
+
 #shanghai-id {
     height: 1360px; 
 }
 
+#shanghai-cn-container {
+    height: 1550px;
+}
+
 #beijing-id {
     height: 1160px; 
+}
+
+#beijing-cn-container {
+    height: 1200px;
 }
 
 .text-div {
