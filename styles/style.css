@@ -199,7 +199,7 @@ body.wechat-browser, html.wechat-browser {
 }
 
 .intro {
-    height: 850px; 
+    height: 900px; 
 }
 
 #guangzhou-id {
@@ -297,7 +297,6 @@ p {
 }
 
 .subtitulos {
-    width: 200px; 
     height: 70px; 
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -315,34 +314,35 @@ p {
     margin-bottom: 30px;
 }
 
-
-
 #joblab-bild {
     width: 250px; 
 }
 
-#berufsmesse-bild {
-    width: 200px;
+#beruf-bild {
+    width: 220px;
 }
 
-#zurueck-bild {
-    width: 80px;
+#beruf-bild-cn {
+    width: 300px;
 }
 
 #stadt-bild{
     width: 190px;
 }
 
+#stadt-bild-cn{
+ 
+    height: 40px;
+}
+
 #programm-bild {
     width: 170px;
 }
 
-#organisiert {
-    width: 250px; 
-    height: 70px; 
-    margin-top: 40px;
-    margin-bottom: 20px;
+#programm-bild-cn {
+    height: 30px;
 }
+
 
 .programm {
     width: 150px !important; 
