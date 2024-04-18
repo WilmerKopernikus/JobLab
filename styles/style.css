@@ -104,7 +104,7 @@ body.wechat-browser, html.wechat-browser {
 #link-div-4 {
     display: block; 
     position: absolute;
-    width: 6vw; 
+    width: 10vw; 
     height: 8vh; 
     top: 83%; 
     left: 45%; 
@@ -267,26 +267,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     text-decoration: none;
-}
-
-.joblab {
-    width: 250px; 
-    height: 70px; 
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-#joblab-bild {
-    width: 250px; 
-}
-
-#organisiert {
-    width: 250px; 
-    height: 70px; 
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .subtitulos {
@@ -299,6 +281,42 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.joblab {
+    width: 250px; 
+    height: 70px; 
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+#joblab-bild {
+    width: 250px; 
+}
+
+#berufsmesse-bild {
+    width: 200px;
+}
+
+#zurueck-bild {
+    width: 80px;
+}
+
+#stadt-bild{
+    width: 190px;
+}
+
+#programm-bild {
+    width: 170px;
+}
+
+#organisiert {
+    width: 250px; 
+    height: 70px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .programm {
@@ -317,8 +335,6 @@ p {
     font-weight: 550;
     align-items: center;
 }
-
-
 
 #unterstuetzt_von {
     width: 230px; 
@@ -340,7 +356,11 @@ p {
     width: 350px;
 }
 
-
+/* --------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------Media Queries-----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 800px) {
 
@@ -396,7 +416,7 @@ p {
     #link-div-4 {
         display: block; 
         position: absolute;
-        width: 20vw; 
+        width: 40vw; 
         height: 10vh; 
         top: 81%; 
         left: 30%; 
