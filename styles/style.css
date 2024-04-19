@@ -521,52 +521,6 @@ p {
     
 
     #logos-container {
-        height: 1550px;
+        height: 1600px;
     }
 }
-/*
-@media (min-width: 700px) and (max-width: 1024px) {
-    #link-div-1 {
-        display: block; 
-        position: absolute;
-        width: 35vw; 
-        height: 12vh; 
-        top: 38%; 
-        left: 30%; 
-        cursor: pointer; 
-        background-color: rgba(255, 0, 0, 0); 
-    }
-    
-    #link-div-2 {
-        display: block; 
-        position: absolute;
-        width: 30vw; 
-        height: 10vh; 
-        top: 54%; 
-        left: 34%; 
-        cursor: pointer; 
-        background-color: rgba(255, 0, 0, 0); 
-    }
-    
-    #link-div-3 {
-        display: block; 
-        position: absolute;
-        width: 30vw; 
-        height: 10vh; 
-        top: 68%; 
-        left: 36%; 
-        cursor: pointer; 
-        background-color: rgba(255, 0, 0, 0); 
-    }
-    
-    #link-div-4 {
-        display: block; 
-        position: absolute;
-        width: 14vw; 
-        height: 8vh; 
-        top: 81%; 
-        left: 40%; 
-        cursor: pointer; 
-        background-color: rgba(255, 0, 0, 0); 
-    }
-}*/
