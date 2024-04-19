@@ -511,30 +511,6 @@ p {
         border-radius: 20px;
     }
     
-    #organisiert_von {
-        width: 230px; 
-        height: 70px; 
-        background-color: white;
-        margin-top: 20px;
-        text-align: center;
-        font-family: Arial;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #unterstuetzt_von {
-        width: 230px; 
-        height: 70px; 
-        background-color: white;
-        margin-top: 50px;
-        text-align: center;
-        font-family: Arial;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
     .logos {
         padding-top: 50px;
         padding-bottom: 50px;         
@@ -543,6 +519,10 @@ p {
         width: 330px;
     }
     
+
+    #logos-container {
+        height: 1550px;
+    }
 }
 /*
 @media (min-width: 700px) and (max-width: 1024px) {
