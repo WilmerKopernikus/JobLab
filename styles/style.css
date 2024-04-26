@@ -233,6 +233,10 @@ body.wechat-browser, html.wechat-browser {
     height: 2200px;
 }
 
+#logos-container-unternehmen {
+    height: 4000px;
+}
+
 .text-div {
     width: 320px; 
     height: 500px; 
@@ -388,6 +392,19 @@ p {
     width: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.logos-unternehmen {
+    padding-top: 130px;    
+    padding-bottom: 10px;     
+    display: block; 
+    margin: auto; 
+    width: 300px;
+
+}
+
+#unternehmen {
+    text-align: center;
 }
 
 .logos-cn {
