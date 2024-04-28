@@ -236,7 +236,7 @@ body.wechat-browser, html.wechat-browser {
 }
 
 #logos-container-unternehmen {
-    height: 5750px;
+    height: 6800px;
 }
 
 .text-div {
@@ -248,6 +248,10 @@ body.wechat-browser, html.wechat-browser {
     text-align: justify;
     line-height: 1.5;
     font-size: 14px;
+}
+
+#unternehmensname {
+    text-align: center;
 }
 
 
