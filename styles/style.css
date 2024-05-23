@@ -136,6 +136,8 @@ body.wechat-browser, html.wechat-browser {
 
 
 
+
+
   td, th {
     padding: 9px; 
     font-family: 'Arial', sans-serif;
@@ -216,7 +218,7 @@ body.wechat-browser, html.wechat-browser {
 }
 
 #shanghai-id {
-    height: 1460px; 
+    height: 1500px; 
 }
 
 #shanghai-cn-container {
