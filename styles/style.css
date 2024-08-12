@@ -163,11 +163,29 @@ body.wechat-browser, html.wechat-browser {
 }
 
 .intro {
-    height: 1200px; 
+    height: 1500px; 
 }
 
 .intro-cn {
-    height: 950px; 
+    height: 1400px; 
+}
+
+.teilnehmende-unternehmen-cn {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 440px;
+}
+
+
+
+
+.textplusbild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #guangzhou-id {
@@ -264,10 +282,17 @@ body.wechat-browser, html.wechat-browser {
     text-align: justify;
     line-height: 1.5;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 p {
     font-family: Arial, sans-serif;
+}
+
+.fotos-joblab{
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .teilnehmende-unternehmen {
@@ -276,7 +301,7 @@ p {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 140px;
+    margin-top: 520px;
 }
 
 .zurueck {
@@ -524,7 +549,9 @@ table {
         width: 90%;
         height: 1600px; 
     }
-
+    .fotos-joblab{
+        margin-top: 60px;
+    }
 
     .grande {
         font-size: 16px;
@@ -555,9 +582,7 @@ table {
 
 
 
-.teilnehmende-unternehmen{
-    margin-top: 240px;
-}
+
 
 #logos-container{
     height: 480px;
@@ -676,6 +701,8 @@ table {
     #unternehmen-container {
         height: 5700px;
     }
+
+
     
     .logos {
         padding-top: 50px;
