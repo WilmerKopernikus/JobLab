@@ -1,9 +1,18 @@
-/* General Body Styles */
+/* ------------------------------------------------------------------------------------------------------------
+/* ------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------Job Lab---------------------------------------------------
+-------------------------------------------Wilmer Aderbert Florez Lopez----------------------------------------
+---------------------------------------------------------------------------------------------------------------
+------------------------------------------------General Body Styles--------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------------------------------------*/
+
+
 body, html {
     height: 100%;
     margin: 0;
     background-color: rgb(29, 26, 75);
-
 }
 
 #image-container {
@@ -22,18 +31,8 @@ body, html {
 }
 
 #chinese-text{
-    font-size: 17px;
+    font-size: 20px;
 }
-
-
-
-
-/* ------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------
------------------------------------------General Body Styles for WE-CHAT -------------------------------------
---------------------------------------------------------------------------------------------------------------- 
--------------------------------------------------------------------------------------------------------------*/
-
 
 .wechat-browser #image-container {
     display: flex; 
@@ -56,11 +55,9 @@ body.wechat-browser, html.wechat-browser {
     background-color: rgb(29, 26, 75);
     scroll-behavior: smooth;}
 
-
-
-
 /* ------------------------------------------------------------------------------------------
 --------------------------------------Links-------------------------------------------------- 
+----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
 
 #link-div-0 {
@@ -118,30 +115,244 @@ body.wechat-browser, html.wechat-browser {
     background-color: rgba(255, 0, 0, 0); 
 }
 
-/*---------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------
------------------------------ Tables------------------------------------------------------
-----------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+-------------------------------------- Containers --------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
 
 
-  table {
-    width: 100%;
-    margin-top: 10px;
+.container {
+    color: rgb(0, 34, 156);
+    background-color: #ffffff; 
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.container-unterstuetzt {
+    color: rgb(0, 34, 156);
+    background-color: #ffffff; 
+    width: 90%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+#unterstuetzt-container {
+    height: 960px;
+}
+
+#unternehmen-container {
+    height: 2200px;
+}
+
+.intro {
+    height: 1200px; 
+}
+
+.intro-cn {
+    height: 950px; 
+}
+
+#guangzhou-id {
+    height: 1500px; 
+}
+
+#guangzhou-cn-container {
+    height: 1480px;
+}
+
+#shanghai-id {
+    height: 1800px; 
+}
+
+#shanghai-cn-container {
+    height: 1800px;
+}
+
+#beijing-id {
+    height: 1600px; 
+}
+
+#beijing-cn-container {
+    height: 1320px;
+}
+
+#logos-container {
+    height: 400px;
+}
+
+#logos-container-unternehmen {
+    height: 6800px;
+}
+
+#unternehmensname {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------- Content --------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+.titulos {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.subtitulos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joblab-titulos {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+#joblab-bild {
+    width: 510px; 
+}
+
+#beruf-bild {
+    width: 250px;
+    padding-bottom: 60px;
+}
+
+#beruf-bild-cn {
+    width: 300px;
+    padding-bottom: 60px;
+}
+
+.text-div {
+    width: 75%; 
+    height: 400px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+.teilnehmende-unternehmen {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 140px;
+}
+
+.zurueck {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+#stadt-bild{
+    height: 50px;
+    width: 150px;
+    padding-top: 100px;
+}
+
+#stadt-bild-cn{
+    height: 50px;
+    padding-top: 100px;
+}
+
+.ort{
+    width: 600px; 
+    height: 350px; 
+
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 30px;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#programm-bild {
+    width: 180px; 
+     padding-top: 30px;
+     /*background-color: aqua;*/
+}
+
+#programm-bild-cn {
+    height: 30px;
+}
+
+.programm {
+    width: 150px !important; 
+}
+/* ------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------------------------------------- Tabelle / Programm ------------------------------------ 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+
+table {
+    width: 90%;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     border-spacing: 7px;
     color: rgb(0, 0, 0);
   }
 
-
-
-
-
   td, th {
-    padding: 9px; 
+    padding: 12px; 
     font-family: 'Arial', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .chinese-table td, .chinese-table th {
@@ -176,208 +387,33 @@ body.wechat-browser, html.wechat-browser {
 
   .grande {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
   }
 
 
-
-
-
-
 /* ------------------------------------------------------------------------------------------
---------------------------------------Containers--------------------------------------------- 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+------------------------------------- Organizadores ----- ------------------------------------ 
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
 
-
-.container {
-    color: rgb(0, 34, 156);
-    background-color: white; 
-    width: 360px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
+.image-grid-daad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
 }
 
-
-
-.intro {
-    height: 900px; 
-}
-
-#guangzhou-id {
-    height: 1310px; 
-}
-
-#guangzhou-cn-container {
-    height: 1300px;
-}
-
-#shanghai-id {
-    height: 1500px; 
-}
-
-#shanghai-cn-container {
-    height: 1620px;
-}
-
-#beijing-id {
-    height: 1220px; 
-}
-
-#beijing-cn-container {
-    height: 1320px;
-}
-
-#logos-container {
-    height: 3150px;
-}
-
-#logos-container-unternehmen {
-    height: 6800px;
-}
-
-.text-div {
-    width: 320px; 
-    height: 500px; 
-    background-color: rgb(255, 255, 255); 
-    color: black;
-    margin-top: 20px;
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 14px;
-}
-
-#unternehmensname {
-    text-align: center;
-}
-
-
-.ort{
-    width: 320px; 
-    height: 200px; 
-    background-color: rgb(255, 255, 255); 
-    color: black;
-    margin-top: 20px;
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 14px;
-}
-/*EStilo para pc
-
-#container {
-    color: rgb(0, 34, 156);
-    background-color: white; 
-    width: 500px; 
-    height: 780px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-}
-
-#text-div {
-    width: 400px; 
-    height: 600px; 
-    background-color: rgb(255, 255, 255); 
-    color: black;
-    margin-top: 20px;
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 16px;
-} */
-
-p {
-    font-family: Arial, sans-serif;
-}
-
-
-
-/* ------------------------------------------------------------------------------------------
---------------------------------------Titulos------------------------------------------------ 
------------------------------------------------------------------------------------------- */
-
-.titulos {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.subtitulos {
-    height: 70px; 
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.joblab {
-    width: 250px; 
-    height: 70px; 
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-#joblab-bild {
-    width: 250px; 
-}
-
-#beruf-bild {
-    width: 220px;
-}
-
-#beruf-bild-cn {
-    width: 300px;
-}
-
-#stadt-bild{
-    width: 190px;
-}
-
-#stadt-bild-cn{
- 
-    height: 40px;
-}
-
-#programm-bild {
-    width: 170px;
-}
-
-#programm-bild-cn {
-    height: 30px;
-}
-
-
-.programm {
-    width: 150px !important; 
-}
-
-.titulos2 {
-    width: 300px; 
-    height: 130px; 
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-    font-family: Arial, sans-serif;
-    display: flex;
-    font-weight: 550;
-    align-items: center;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
 }
 
 #unterstuetzt_von {
@@ -392,24 +428,31 @@ p {
     justify-content: center;
 }
 
-.logos {
-    padding-top: 50px;    
-    padding-bottom: 50px;     
+.logos {    
     display: block; 
     margin: auto; 
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 80px;
+    width: 200px; 
 }
+
+.logo-daad {    
+    display: block; 
+    margin: auto; 
+    padding: 80px;
+    width: 350px; 
+}
+
+
 
 .logos-unternehmen {
     padding-top: 130px;    
-    padding-bottom: 10px;     
+    padding: 40px;     
     display: block; 
     margin: auto; 
-    width: 300px;
 
 }
+
+
 
 #unternehmen {
     text-align: center;
@@ -449,27 +492,120 @@ p {
 
 /* --------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
------------------------------------------Media Queries-----------------------------------------------------
+-----------------------------------------Media Queries Tablet----------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
+
+    #joblab-bild {
+        width: 410px; 
+    }
+
+    .text-div {
+        width: 75%; 
+        height: 400px; 
+        background-color: rgb(255, 255, 255); 
+        color: black;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    #guangzhou-id {
+        width: 90%;
+        height: 1500px;
+    }
+    #shanghai-id {
+        width: 90%;
+        height: 1800px;
+    }
+    #beijing-id {
+        width: 90%;
+        height: 1600px; 
+    }
+
+
+    .grande {
+        font-size: 16px;
+      }
+
+      .image-grid-daad {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #unterstuetzt-container {
+        height: 1400px;
+    }
+
+    #chinese-text{
+        font-size: 18px;
+    }
+
+    table {
+        width: 95%;
+      }
+
+
+
+
+
+
+.teilnehmende-unternehmen{
+    margin-top: 240px;
+}
+
+#logos-container{
+    height: 480px;
+}
+
+#stadt-bild{
+    width: 150px;
+    
+}
+
+#unternehmen-container {
+    height: 2900px;
+}
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+----------------------------------------Media Queries Handy-----------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 750px) {
+
+    #chinese-text{
+        font-size: 17px;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     #image-container {
         display: flex; 
-        justify-content: center;  /* Center horizontally */
-        align-items: flex-start;  /* Align items to the top */
+        justify-content: center;  
+        align-items: flex-start;  
         width: 100vw;
         height: 100vh;
         overflow: hidden;
     }
     
     #bg-gif {
-        width: auto;  /* Allows the image width to adjust automatically */
-        max-width: 100%; /* Adjust this value to set how thin you want the image to be */
-        height: 100%; /* Ensures the image always fills the height of the viewport */
-        object-fit: contain; /* Makes sure the entire image is visible, fits within the dimensions without cropping */
-        object-position: top center; /* Ensures the image is aligned to the top and centered horizontally */
+        width: auto;  
+        max-width: 100%; 
+        height: 100%; 
+        object-fit: contain; 
+        object-position: top center; 
     }
 
     #link-div-1 {
@@ -531,22 +667,109 @@ p {
         margin-right: auto;
         border-radius: 20px;
     }
+
+    #guangzhou-id {
+        width: 90%;
+        height: 1500px;
+    }
+
+    #unternehmen-container {
+        height: 5700px;
+    }
     
     .logos {
         padding-top: 50px;
         padding-bottom: 50px;         
         display: block; 
         margin: auto; 
-        width: 250px;
+        width: 240px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
     
     #logos-container {
-        height: 2930px;
+        
+        width: 90%;
+    }
+
+
+    .subtitulos {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .container {
+        width: 90%; 
+    }
+
+    .intro {
+
+        width: 90%;
+    }
+
+    #joblab-bild {
+        width: 250px; 
+    }
+
+    .joblab-titulos {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .ort{
+        width: 300px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+
+    
+    table {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    
+
+
+    td, th {
+        padding: 9px; 
+        font-size: 12px;
     }
 
 
 
+    #shanghai-id {
+        width: 90%;
+        height: 1800px;
+    }
 
+    .grande {
+        font-size: 14px;
+      }
+
+    #beruf-bild {
+        width: 200px;
+    }
+
+    #programm-bild {
+        width: 150px;
+    }
+
+
+
+.text-div {
+    width: 80%; 
+    height: 500px; 
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
 }
+
+#unterstuetzt-container {
+    height: 2600px;
+}
+ }
