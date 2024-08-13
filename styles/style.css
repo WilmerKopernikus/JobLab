@@ -201,24 +201,28 @@ body.wechat-browser, html.wechat-browser {
     height: 1500px; 
 }
 
-#guangzhou-cn-container {
-    height: 1480px;
-}
+
 
 #shanghai-id {
     height: 1800px; 
 }
 
-#shanghai-cn-container {
-    height: 1800px;
-}
+
 
 #beijing-id {
     height: 1600px; 
 }
 
 #beijing-cn-container {
-    height: 1320px;
+    height: 1400px;
+}
+
+#guangzhou-cn-container {
+    height: 1480px;
+}
+
+#shanghai-cn-container {
+    height: 1900px;
 }
 
 #logos-container {
@@ -706,6 +710,10 @@ table {
     #guangzhou-id {
         width: 90%;
         height: 1500px;
+    }
+
+    #guangzhou-cn-container, #beijing-cn-container, #shanghai-cn-container {
+        width: 90%;
     }
 
     #unternehmen-container {
