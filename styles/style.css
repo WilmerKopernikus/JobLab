@@ -599,9 +599,7 @@ table {
         font-size: 18px;
     }
 
-    table {
-        width: 95%;
-      }
+
 
 
 
@@ -622,6 +620,7 @@ table {
 #unternehmen-container {
     height: 2900px;
 }
+
     
 }
 
@@ -725,6 +724,10 @@ table {
         width: 90%;
     }
 
+    #guangzhou-id, #beijing-id, #shanghai-id {
+        width: 90%;
+    }
+
     #unternehmen-container {
         height: 5700px;
     }
@@ -781,11 +784,7 @@ table {
     }
 
 
-    
-    table {
-        width: 95%;
-        margin-top: 10px;
-    }
+
 
     
 
@@ -838,7 +837,6 @@ table {
     border-radius: 50%;
     margin-top: 100px;
 }
-#shanghai-id {
-    width: 90%;
-}
+
+
  }
