@@ -163,11 +163,20 @@ body.wechat-browser, html.wechat-browser {
 }
 
 .intro {
-    height: 1500px; 
+    height: 1550px; 
 }
 
 .intro-cn {
     height: 1400px; 
+}
+
+.teilnehmende-unternehmen {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 550px;
 }
 
 .teilnehmende-unternehmen-cn {
@@ -176,7 +185,7 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 440px;
+    margin-top: 470px;
 }
 
 
@@ -293,16 +302,13 @@ p {
     width: 100%;
     display: flex;
     align-items: center;
+    border-radius: 15px;
+}
+.fotos-joblab-b{
+    display: none;
 }
 
-.teilnehmende-unternehmen {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    text-decoration: none;
-    margin-top: 520px;
-}
+
 
 .zurueck {
     background-color: rgb(255, 255, 255);
@@ -610,7 +616,7 @@ table {
 ---------------------------------------------------------------------------------------------------------*/
 
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 
     #chinese-text{
         font-size: 17px;
@@ -724,7 +730,7 @@ table {
     }
 
     .logo-daad {    
-        width: 300px; 
+        width: 280px; 
     }
 
 
@@ -806,5 +812,16 @@ table {
 
 #unterstuetzt-container {
     height: 2600px;
+}
+
+.fotos-joblab{
+    display: none;
+}
+.fotos-joblab-b{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 150px;
 }
  }
