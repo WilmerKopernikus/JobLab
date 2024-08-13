@@ -163,11 +163,11 @@ body.wechat-browser, html.wechat-browser {
 }
 
 .intro {
-    height: 1550px; 
+    height: 1650px; 
 }
 
 .intro-cn {
-    height: 1400px; 
+    height: 1470px; 
 }
 
 .teilnehmende-unternehmen {
@@ -176,7 +176,7 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 550px;
+    margin-top: 650px;
 }
 
 .teilnehmende-unternehmen-cn {
@@ -188,42 +188,61 @@ body.wechat-browser, html.wechat-browser {
     margin-top: 470px;
 }
 
-
-
-
 .textplusbild{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
+/* ------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+-------------------------------------- Containers para Tablas--------------------------------
+------------------------------------------------------------------------------------------ */
+
 #guangzhou-id {
-    height: 1500px; 
+    height: 1980px; 
 }
-
-
 
 #shanghai-id {
-    height: 1800px; 
+    height: 2200px; 
 }
-
-
 
 #beijing-id {
-    height: 1600px; 
-}
-
-#beijing-cn-container {
-    height: 1400px;
+    height: 2000px; 
 }
 
 #guangzhou-cn-container {
-    height: 1480px;
+    height: 2100px;
 }
 
 #shanghai-cn-container {
-    height: 1900px;
+    height: 2300px;
 }
+
+#beijing-cn-container {
+    height: 2000px;
+}
+
+.zurueck {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 160px;
+}
+
+.zurueck-cn {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 150px;
+}
+
+
 
 #logos-container {
     height: 400px;
@@ -307,6 +326,7 @@ p {
     display: flex;
     align-items: center;
     border-radius: 15px;
+    margin-top: 60px;
 }
 .fotos-joblab-b{
     display: none;
@@ -314,14 +334,9 @@ p {
 
 
 
-.zurueck {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
+
+
+
 
 
 #stadt-bild{
@@ -553,15 +568,12 @@ table {
 
     #guangzhou-id {
         width: 90%;
-        height: 1500px;
     }
     #shanghai-id {
         width: 90%;
-        height: 1800px;
     }
     #beijing-id {
         width: 90%;
-        height: 1600px; 
     }
     .fotos-joblab{
         margin-top: 60px;
@@ -707,10 +719,7 @@ table {
         border-radius: 20px;
     }
 
-    #guangzhou-id {
-        width: 90%;
-        height: 1500px;
-    }
+
 
     #guangzhou-cn-container, #beijing-cn-container, #shanghai-cn-container {
         width: 90%;
@@ -788,10 +797,7 @@ table {
 
 
 
-    #shanghai-id {
-        width: 90%;
-        height: 1800px;
-    }
+
 
     .grande {
         font-size: 14px;
