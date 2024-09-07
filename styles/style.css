@@ -852,12 +852,16 @@ table {
     margin-top: 100px;
 }
 
-#shanghai-cn-container  {
-    height: 2600px;
+#guangzhou-cn-container {
+    height: 1500px;
+}
+
+#shanghai-cn-container {
+    height: 1900px;
 }
 
 #beijing-cn-container {
-    height: 2450px;
+    height: 1650px;
 }
 
 
