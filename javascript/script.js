@@ -25,3 +25,13 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.style.backgroundColor = "rgb(29, 26, 75)"; // Example style
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.getElementById("hamburger");
+    const menuOverlay = document.getElementById("menuOverlay");
+
+    hamburger.addEventListener("click", function() {
+        this.classList.toggle("open");
+        menuOverlay.classList.toggle("show");
+    });
+});

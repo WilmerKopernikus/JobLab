@@ -55,6 +55,120 @@ body.wechat-browser, html.wechat-browser {
     background-color: rgb(29, 26, 75);
     scroll-behavior: smooth;}
 
+
+/*--------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------
+ -------------------------------------- Hamburger-Menu ---------------------------------------
+ ---------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------*/
+
+ .hamburger-menu {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 1000;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    flex-direction: column;
+}
+
+.menu-overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-overlay li {
+    margin: 20px 0;
+}
+
+.menu-overlay a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.menu-overlay a:hover {
+    color: #0d72ff;
+    font-weight: 600;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(9px, 9px);
+    background-color: white;
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: white;
+}
+
+.menu-overlay.show {
+    display: flex;
+}
+
+/* ------------------------------------------------------------------------------------------
+--------------------------------------Header------------------------------------------------- 
+----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+
+    .header {
+        background-color: #000000;
+        width: 100%;
+        display: flex; 
+        justify-content: left;
+        align-items: center;
+        height: 50px;
+        z-index: 20; 
+        left: 0; 
+        position: fixed;
+        top: 0;
+        padding-left: 5%;
+    }
+    
+    
+    
+    #logo-bild {
+        height: 40px;
+        margin-top: 5px;
+    }
 /* ------------------------------------------------------------------------------------------
 --------------------------------------Links-------------------------------------------------- 
 ----------------------------------------------------------------------------------------------
@@ -147,7 +261,7 @@ body.wechat-browser, html.wechat-browser {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -167,6 +281,11 @@ body.wechat-browser, html.wechat-browser {
     position: relative;
 }
 
+.fotogalerie {
+    height: 11500px; 
+    position: relative;
+}
+
 .intro-cn {
     height: 970px; 
     position: relative;
@@ -180,6 +299,29 @@ body.wechat-browser, html.wechat-browser {
     text-decoration: none;
     position: absolute;
     bottom: 10px;
+}
+
+li {
+    font-family: Arial, sans-serif;
+}
+
+.subtiteln {
+    background-color: rgb(255, 255, 255);
+    text-align: center !important;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+}
+
+.foto-galerie {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    bottom: 60px;
 }
 
 .teilnehmende-unternehmen-cn {
@@ -284,6 +426,7 @@ body.wechat-browser, html.wechat-browser {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    
 }
 
 
@@ -340,6 +483,17 @@ p {
     border-radius: 15px;
     margin-top: 60px;
 }
+
+.fotos-joblab-klein{
+    width: 70%;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+
+
 .fotos-joblab-b{
     display: none;
 }
