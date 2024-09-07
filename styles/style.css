@@ -163,11 +163,13 @@ body.wechat-browser, html.wechat-browser {
 }
 
 .intro {
-    height: 1650px; 
+    height: 1050px; 
+    position: relative;
 }
 
 .intro-cn {
-    height: 1470px; 
+    height: 970px; 
+    position: relative;
 }
 
 .teilnehmende-unternehmen {
@@ -176,7 +178,8 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 650px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .teilnehmende-unternehmen-cn {
@@ -185,7 +188,8 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 470px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .textplusbild{
@@ -201,27 +205,33 @@ body.wechat-browser, html.wechat-browser {
 ------------------------------------------------------------------------------------------ */
 
 #guangzhou-id {
-    height: 2000px; 
+    height: 1500px; 
+    position: relative;
 }
 
 #shanghai-id {
-    height: 2300px; 
+    height: 1700px; 
+    position: relative;
 }
 
 #beijing-id {
-    height: 2000px; 
+    height: 1600px; 
+    position: relative;
 }
 
 #guangzhou-cn-container {
-    height: 2150px;
+    height: 1500px;
+    position: relative;
 }
 
 #shanghai-cn-container {
-    height: 2300px;
+    height: 1750px;
+    position: relative;
 }
 
 #beijing-cn-container {
-    height: 2000px;
+    height: 1550px;
+    position: relative;
 }
 
 .zurueck {
@@ -230,7 +240,8 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 160px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .zurueck-cn {
@@ -239,7 +250,8 @@ body.wechat-browser, html.wechat-browser {
     font-family: Arial, sans-serif;
     display: flex;
     text-decoration: none;
-    margin-top: 150px;
+    position: absolute;
+    bottom: 10px;
 }
 
 
