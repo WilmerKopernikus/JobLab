@@ -426,10 +426,7 @@ li {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    
 }
-
-
 
 .subtitulos {
     text-align: center;
@@ -444,7 +441,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: center; 
-
 }
 
 #joblab-bild {
@@ -492,18 +488,9 @@ p {
     margin-left: 15%;
 }
 
-
-
 .fotos-joblab-b{
     display: none;
 }
-
-
-
-
-
-
-
 
 #stadt-bild{
     
@@ -649,6 +636,11 @@ table {
     margin: auto; 
     padding: 80px;
     width: 200px; 
+    transition: transform 0.7s ease;
+}
+
+.logos:hover {
+    transform: scale(1.1);
 }
 
 .logo-daad {    
@@ -656,8 +648,24 @@ table {
     margin: auto; 
     padding: 80px;
     width: 350px; 
+    transition: transform 0.7s ease;
+}
+.logo-daad:hover {
+    transform: scale(1.1);
 }
 
+.foto {
+    width:180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+p a {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center;  /* Opcional: centra el texto dentro del contenedor */
+  }
 
 
 .logos-unternehmen {
@@ -665,10 +673,7 @@ table {
     padding: 40px;     
     display: block; 
     margin: auto; 
-
 }
-
-
 
 #unternehmen {
     text-align: center;
@@ -697,9 +702,8 @@ table {
     font-weight: 600;
 }
 
-.footer a {
+a {
     color: #0af;
-    text-decoration: none;
 }
 
 .footer a:hover {
@@ -765,19 +769,12 @@ table {
         font-size: 18px;
     }
 
-
-
-table {
-    width: 95%;
-}
-
-
-
-
-
+    table {
+        width: 95%;
+    }
 
 #logos-container{
-    height: 480px;
+    height: 1000px;
 }
 
 #stadt-bild{
@@ -787,6 +784,10 @@ table {
 
 #unternehmen-container {
     height: 2900px;
+}
+
+.foto {
+    margin-top: 40px;
 }
 
     
@@ -800,6 +801,11 @@ table {
 
 
 @media (max-width: 800px) {
+
+    
+    body, html {
+    background-color: rgb(29, 26, 75);
+    }
 
     #chinese-text{
         font-size: 17px;
