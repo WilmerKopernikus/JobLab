@@ -29,9 +29,9 @@
 <body>
     <div>
         <div class="header">
-            <div class="logo">
+            <div class="nav-container">
                 <a href="index.html">
-                    <img src="imagenes/header-logo.jpg" alt="logo Wilmer Aderbert Florez Lopez" id="logo-bild">
+                    <img src="imagenes/header-logo.jpg" alt="Kopernikus Design Logo" class='header-logo'>
                 </a>
             </div>
         </div>
@@ -42,11 +42,20 @@
                 <span></span>
             </div>
         </div>
+        <div class="language-selector">
+            <input type="checkbox" id="langToggle" hidden />
+            <label for="langToggle" class="current-lang">DE ▼</label>
+          
+            <ul class="language-options">
+              <li><a href="index_cn.html" class="lang-button">中文</a></li>
+            </ul>
+        </div>
+          
         <div class="menu-overlay" id="menuOverlay">
             <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="projektbericht.html">Projektbericht</a></li>
-                <li><a href="unternehmen.html">Teilnehmende Unternehmen</a></li>
+                <li><a href="index.html"><img class="menu-icon" src="imagenes/home.svg" alt="Startseite Icon">Index</a></li>
+                <li><a href="projektbericht.html"><img class="menu-icon" src="imagenes/bericht.svg" alt="Projekte Icon">Projekbericht</a></li>
+                <li><a href="unternehmen.html"><img class="menu-icon" src="imagenes/unternehmen.svg" alt="Services Icon">Unternehmen</a></li>
             </ul>
         </div>   
     </div>
