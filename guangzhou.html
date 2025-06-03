@@ -14,9 +14,25 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="loadingScreen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgb(2, 24, 110); z-index: 100;">
-        Job Lab...
-    </div>
+    <div
+    id="loadingScreen"
+    style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(2, 24, 110);
+      z-index: 3000; /* was 100, now well above 2000 */
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    "
+  >
+    Loading…
+  </div>
     <div>
         <div class="header">
             <div class="nav-container">
