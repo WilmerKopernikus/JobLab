@@ -296,7 +296,7 @@ body.wechat-browser, html.wechat-browser {
       }
   
       .header-logo {
-          width: 200px;        
+          width: 150px;        
           height: auto; 
           margin-top: 10px;   
       }
@@ -335,12 +335,12 @@ body.wechat-browser, html.wechat-browser {
       }
 
       .language-selector .current-lang {
-        min-width: 40px;
+        min-width: 80px;
         padding: 2px 5px;
       }
 
       .language-options {
-        min-width: 40px;
+        min-width: 80px;
       }
 
       .nav-container {
