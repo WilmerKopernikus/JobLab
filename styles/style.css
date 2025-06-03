@@ -335,12 +335,12 @@ body.wechat-browser, html.wechat-browser {
       }
 
       .language-selector .current-lang {
-        min-width: 80px;
+        min-width: 50px;
         padding: 2px 5px;
       }
 
       .language-options {
-        min-width: 80px;
+        min-width: 50px;
       }
 
       .nav-container {
