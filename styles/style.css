@@ -7,13 +7,10 @@
 ---------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------- 
 -------------------------------------------------------------------------------------------------------------*/
-
-
 body, html {
     height: 100%;
     margin: 0;
 }
-
 #image-container {
     display: flex; 
     justify-content: center; 
@@ -22,17 +19,14 @@ body, html {
     height: 100vh;
     overflow: hidden; 
 }
-
 #bg-gif {
     max-height: 100%; 
     min-height: 100%; 
     object-fit: cover; 
 }
-
 #chinese-text{
     font-size: 20px;
 }
-
 .wechat-browser #image-container {
     display: flex; 
     justify-content: center; 
@@ -41,33 +35,27 @@ body, html {
     height: 100vh;
     overflow: hidden; 
 }
-
 .wechat-browser #bg-gif {
     max-height: 100%; 
     min-height: 100%; 
     object-fit: cover; 
 }
-
 body.wechat-browser, html.wechat-browser {
     height: 100%;
     margin: 0;
     background-color: rgb(29, 26, 75);
     scroll-behavior: smooth;}
-
-
 /*--------------------------------------------------------------------------------------------
  ---------------------------------------------------------------------------------------------
  -------------------------------------- Hamburger-Menu ---------------------------------------
  ---------------------------------------------------------------------------------------------
  -------------------------------------------------------------------------------------------*/
-
  .hamburger-menu {
     position: fixed;
     top: 10px;
     right: 50px;
     z-index: 1000;
 }
-
 .hamburger {
     cursor: pointer;
     display: flex;
@@ -76,7 +64,6 @@ body.wechat-browser, html.wechat-browser {
     width: 40px;
     height: 30px;
 }
-
 .hamburger span {
     display: block;
     width: 100%;
@@ -85,7 +72,6 @@ body.wechat-browser, html.wechat-browser {
     transition: all 0.3s ease;
     transform-origin: center;
 }
-
 .menu-overlay {
     position: fixed;
     top: 0;
@@ -100,79 +86,64 @@ body.wechat-browser, html.wechat-browser {
     z-index: 999;
     flex-direction: column;
 }
-
 .menu-overlay ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
-
 .menu-overlay li {
     margin: 20px 0;
 }
-
 .menu-overlay a {
     color: white;
     text-decoration: none;
     font-size: 24px;
     transition: color 0.3s;
 }
-
 .menu-overlay a:hover {
     color: #0d72ff;
     font-weight: 600;
 }
-
 .hamburger.open span:nth-child(1) {
     transform: rotate(45deg) translate(9px, 9px);
     background-color: white;
 }
-
 .hamburger.open span:nth-child(2) {
     opacity: 0;
 }
-
 .hamburger.open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
     background-color: white;
 }
-
 .menu-overlay.show {
     display: flex;
 }
-
 /* ------------------------------------------------------------------------------------------
 --------------------------------------Header------------------------------------------------- 
 ----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
-
-
-    .header {
-        background-color: #000000;
-        width: 100%;
-        display: flex; 
-        justify-content: left;
-        align-items: center;
-        height: 50px;
-        z-index: 20; 
-        left: 0; 
-        position: fixed;
-        top: 0;
-        padding-left: 5%;
-    }
-    
-    
-    
-    #logo-bild {
-        height: 40px;
-        margin-top: 5px;
-    }
+.header {
+    background-color: #000000;
+    width: 100%;
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    z-index: 20; 
+    left: 0; 
+    position: fixed;
+    top: 0;
+    padding-left: 5%;
+}
+#logo-bild {
+    height: 40px;
+    margin-top: 5px;
+}
 /* ------------------------------------------------------------------------------------------
 --------------------------------------Links-------------------------------------------------- 
 ----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
-
 #link-div-0 {
     display: block; 
     position: absolute;
@@ -183,7 +154,6 @@ body.wechat-browser, html.wechat-browser {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0); 
 }
-
 #link-div-1 {
     display: block; 
     position: absolute;
@@ -194,7 +164,6 @@ body.wechat-browser, html.wechat-browser {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0); 
 }
-
 #link-div-2 {
     display: block; 
     position: absolute;
@@ -205,7 +174,6 @@ body.wechat-browser, html.wechat-browser {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0); 
 }
-
 #link-div-3 {
     display: block; 
     position: absolute;
@@ -216,7 +184,6 @@ body.wechat-browser, html.wechat-browser {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0); 
 }
-
 #link-div-4 {
     display: block; 
     position: absolute;
@@ -227,8 +194,6 @@ body.wechat-browser, html.wechat-browser {
     cursor: pointer; 
     background-color: rgba(255, 0, 0, 0); 
 }
-
-
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
@@ -237,8 +202,6 @@ body.wechat-browser, html.wechat-browser {
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
-
-
 .container {
     color: rgb(0, 34, 156);
     background-color: #ffffff; 
@@ -252,7 +215,6 @@ body.wechat-browser, html.wechat-browser {
     margin-bottom: 30px;
     border-radius: 20px;
 }
-
 .container-unterstuetzt {
     color: rgb(0, 34, 156);
     background-color: #ffffff; 
@@ -266,31 +228,24 @@ body.wechat-browser, html.wechat-browser {
     margin-bottom: 40px;
     border-radius: 20px;
 }
-
 #unterstuetzt-container {
     height: 960px;
 }
-
 #unternehmen-container {
     height: 2200px;
 }
-
 .intro {
     height: 1050px; 
     position: relative;
-
 }
-
 .fotogalerie {
     height: 11500px; 
     position: relative;
 }
-
 .intro-cn {
     height: 970px; 
     position: relative;
 }
-
 .teilnehmende-unternehmen {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -300,11 +255,9 @@ body.wechat-browser, html.wechat-browser {
     position: absolute;
     bottom: 10px;
 }
-
 li {
     font-family: Arial, sans-serif;
 }
-
 .subtiteln {
     background-color: rgb(255, 255, 255);
     text-align: center !important;
@@ -313,7 +266,6 @@ li {
     text-decoration: none;
     position: absolute;
 }
-
 .foto-galerie {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -323,7 +275,6 @@ li {
     position: absolute;
     bottom: 60px;
 }
-
 .teilnehmende-unternehmen-cn {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -333,49 +284,39 @@ li {
     position: absolute;
     bottom: 10px;
 }
-
 .textplusbild{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 -------------------------------------- Containers para Tablas--------------------------------
 ------------------------------------------------------------------------------------------ */
-
 #guangzhou-id {
     height: 1500px; 
     position: relative;
 }
-
 #shanghai-id {
     height: 1700px; 
     position: relative;
 }
-
 #beijing-id {
     height: 1600px; 
     position: relative;
 }
-
 #guangzhou-cn-container {
     height: 1500px;
     position: relative;
 }
-
 #shanghai-cn-container {
     height: 1750px;
     position: relative;
 }
-
 #beijing-cn-container {
     height: 1550px;
     position: relative;
 }
-
 .zurueck {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -385,7 +326,6 @@ li {
     position: absolute;
     bottom: 10px;
 }
-
 .zurueck-cn {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -395,21 +335,15 @@ li {
     position: absolute;
     bottom: 10px;
 }
-
-
-
 #logos-container {
     height: 400px;
 }
-
 #logos-container-unternehmen {
     height: 6800px;
 }
-
 #unternehmensname {
     text-align: center;
 }
-
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
@@ -418,7 +352,6 @@ li {
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
-
 .titulos {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -427,14 +360,12 @@ li {
     justify-content: center;
     text-decoration: none;
 }
-
 .subtitulos {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .joblab-titulos {
     margin-top: 130px;
     margin-bottom: 130px;
@@ -442,21 +373,17 @@ li {
     align-items: center;
     justify-content: center; 
 }
-
 #joblab-bild {
     width: 510px; 
 }
-
 #beruf-bild {
     width: 250px;
     padding-bottom: 60px;
 }
-
 #beruf-bild-cn {
     width: 300px;
     padding-bottom: 60px;
 }
-
 .text-div {
     width: 75%; 
     height: 400px; 
@@ -467,11 +394,9 @@ li {
     font-size: 18px;
     margin-bottom: 10px;
 }
-
 p {
     font-family: Arial, sans-serif;
 }
-
 .fotos-joblab{
     width: 100%;
     display: flex;
@@ -479,7 +404,6 @@ p {
     border-radius: 15px;
     margin-top: 60px;
 }
-
 .fotos-joblab-klein{
     width: 70%;
     align-items: center;
@@ -487,26 +411,21 @@ p {
     margin-top: 60px;
     margin-left: 15%;
 }
-
 .fotos-joblab-b{
     display: none;
 }
-
 #stadt-bild{
     
     width: 200px;
     padding-top: 100px;
 }
-
 #stadt-bild-cn{
     height: 50px;
     padding-top: 100px;
 }
-
 .ort{
     width: 600px; 
     height: 350px; 
-
     color: black;
     text-align: center;
     line-height: 1.5;
@@ -517,17 +436,14 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 #programm-bild {
     width: 180px; 
      padding-top: 30px;
      /*background-color: aqua;*/
 }
-
 #programm-bild-cn {
     height: 30px;
 }
-
 .programm {
     width: 150px !important; 
 }
@@ -541,8 +457,6 @@ p {
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------ */
-
-
 table {
     width: 90%;
     margin-top: 60px;
@@ -551,49 +465,37 @@ table {
     border-spacing: 7px;
     color: rgb(0, 0, 0);
   }
-
   td, th {
     padding: 12px; 
     font-family: 'Arial', sans-serif;
     font-size: 14px;
   }
-
   .chinese-table td, .chinese-table th {
     font-size: 15px;
 }
-
   #top-table {
     background-image: linear-gradient(to right, rgb(0, 174, 239), rgb(38, 34, 98)) !important; 
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
   }
-
-
   #zeit-table {
     background-image: linear-gradient(rgb(0, 174, 239), rgb(38, 34, 98)); 
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
-
   }
-
   #info-table {
     border: 3px solid rgb(0, 174, 239);
     border-radius: 6px;
-
   }
-
   #info-table strong {
     font-weight: bold;
   }
-
   .grande {
     text-align: center;
     font-size: 16px;
   }
-
-
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
@@ -925,6 +827,9 @@ a {
 
     .logo-daad {    
         width: 280px; 
+    }
+    .foto {
+        width:130px;
     }
 
 
