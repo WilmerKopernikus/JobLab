@@ -1008,7 +1008,11 @@ a {
   }  
 
   body, html {
-    background-color: rgb(29, 26, 75);
+    background: radial-gradient(
+      circle at center,
+      #00a4f1 0%,
+      #1d1a4b 100%
+      );
   }
 
   #chinese-text{
